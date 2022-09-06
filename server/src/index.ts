@@ -1,1 +1,0 @@
-import { F1TelemetryClient, constants } from '@racehub-io/f1-telemetry-client';
