@@ -47,8 +47,8 @@ const client = new F1TelemetryClient({
     ]
 });
 
-client.on(PACKETS.session, ( data ) => {
-    console.log(data);
+client.on(PACKETS.carDamage, ( data ) => {
+    console.log(data.m_carDamageData[data.m_header.m_playerCarIndex].m_tyresWear);
 })
 
 client.start();

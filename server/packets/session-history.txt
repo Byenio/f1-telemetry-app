@@ -1,0 +1,737 @@
+{
+  m_header: {
+    m_packetFormat: 2022,
+    m_gameMajorVersion: 1,
+    m_gameMinorVersion: 9,
+    m_packetVersion: 1,
+    m_packetId: 11,
+    m_sessionUID: 18006391334580541425n,
+    m_sessionTime: 244.5915069580078,
+    m_frameIdentifier: 16304,
+    m_playerCarIndex: 0,
+    m_secondaryPlayerCarIndex: 255
+  },
+  m_carIdx: 4,
+  m_numLaps: 2,
+  m_numTyreStints: 1,
+  m_bestLapTimeLapNum: 1,
+  m_bestSector1LapNum: 1,
+  m_bestSector2LapNum: 1,
+  m_bestSector3LapNum: 1,
+  m_lapHistoryData: [
+    {
+      m_lapTimeInMS: 66038,
+      m_sector1TimeInMS: 16346,
+      m_sector2TimeInMS: 29314,
+      m_sector3TimeInMS: 20378,
+      m_lapValidBitFlags: 15
+    },
+    {
+      m_lapTimeInMS: 0,
+      m_sector1TimeInMS: 0,
+      m_sector2TimeInMS: 0,
+      m_sector3TimeInMS: 0,
+      m_lapValidBitFlags: 15
+    },
+    {
+      m_lapTimeInMS: 0,
+      m_sector1TimeInMS: 0,
+      m_sector2TimeInMS: 0,
+      m_sector3TimeInMS: 0,
+      m_lapValidBitFlags: 0
+    },
+    {
+      m_lapTimeInMS: 0,
+      m_sector1TimeInMS: 0,
+      m_sector2TimeInMS: 0,
+      m_sector3TimeInMS: 0,
+      m_lapValidBitFlags: 0
+    },
+    {
+      m_lapTimeInMS: 0,
+      m_sector1TimeInMS: 0,
+      m_sector2TimeInMS: 0,
+      m_sector3TimeInMS: 0,
+      m_lapValidBitFlags: 0
+    },
+    {
+      m_lapTimeInMS: 0,
+      m_sector1TimeInMS: 0,
+      m_sector2TimeInMS: 0,
+      m_sector3TimeInMS: 0,
+      m_lapValidBitFlags: 0
+    },
+    {
+      m_lapTimeInMS: 0,
+      m_sector1TimeInMS: 0,
+      m_sector2TimeInMS: 0,
+      m_sector3TimeInMS: 0,
+      m_lapValidBitFlags: 0
+    },
+    {
+      m_lapTimeInMS: 0,
+      m_sector1TimeInMS: 0,
+      m_sector2TimeInMS: 0,
+      m_sector3TimeInMS: 0,
+      m_lapValidBitFlags: 0
+    },
+    {
+      m_lapTimeInMS: 0,
+      m_sector1TimeInMS: 0,
+      m_sector2TimeInMS: 0,
+      m_sector3TimeInMS: 0,
+      m_lapValidBitFlags: 0
+    },
+    {
+      m_lapTimeInMS: 0,
+      m_sector1TimeInMS: 0,
+      m_sector2TimeInMS: 0,
+      m_sector3TimeInMS: 0,
+      m_lapValidBitFlags: 0
+    },
+    {
+      m_lapTimeInMS: 0,
+      m_sector1TimeInMS: 0,
+      m_sector2TimeInMS: 0,
+      m_sector3TimeInMS: 0,
+      m_lapValidBitFlags: 0
+    },
+    {
+      m_lapTimeInMS: 0,
+      m_sector1TimeInMS: 0,
+      m_sector2TimeInMS: 0,
+      m_sector3TimeInMS: 0,
+      m_lapValidBitFlags: 0
+    },
+    {
+      m_lapTimeInMS: 0,
+      m_sector1TimeInMS: 0,
+      m_sector2TimeInMS: 0,
+      m_sector3TimeInMS: 0,
+      m_lapValidBitFlags: 0
+    },
+    {
+      m_lapTimeInMS: 0,
+      m_sector1TimeInMS: 0,
+      m_sector2TimeInMS: 0,
+      m_sector3TimeInMS: 0,
+      m_lapValidBitFlags: 0
+    },
+    {
+      m_lapTimeInMS: 0,
+      m_sector1TimeInMS: 0,
+      m_sector2TimeInMS: 0,
+      m_sector3TimeInMS: 0,
+      m_lapValidBitFlags: 0
+    },
+    {
+      m_lapTimeInMS: 0,
+      m_sector1TimeInMS: 0,
+      m_sector2TimeInMS: 0,
+      m_sector3TimeInMS: 0,
+      m_lapValidBitFlags: 0
+    },
+    {
+      m_lapTimeInMS: 0,
+      m_sector1TimeInMS: 0,
+      m_sector2TimeInMS: 0,
+      m_sector3TimeInMS: 0,
+      m_lapValidBitFlags: 0
+    },
+    {
+      m_lapTimeInMS: 0,
+      m_sector1TimeInMS: 0,
+      m_sector2TimeInMS: 0,
+      m_sector3TimeInMS: 0,
+      m_lapValidBitFlags: 0
+    },
+    {
+      m_lapTimeInMS: 0,
+      m_sector1TimeInMS: 0,
+      m_sector2TimeInMS: 0,
+      m_sector3TimeInMS: 0,
+      m_lapValidBitFlags: 0
+    },
+    {
+      m_lapTimeInMS: 0,
+      m_sector1TimeInMS: 0,
+      m_sector2TimeInMS: 0,
+      m_sector3TimeInMS: 0,
+      m_lapValidBitFlags: 0
+    },
+    {
+      m_lapTimeInMS: 0,
+      m_sector1TimeInMS: 0,
+      m_sector2TimeInMS: 0,
+      m_sector3TimeInMS: 0,
+      m_lapValidBitFlags: 0
+    },
+    {
+      m_lapTimeInMS: 0,
+      m_sector1TimeInMS: 0,
+      m_sector2TimeInMS: 0,
+      m_sector3TimeInMS: 0,
+      m_lapValidBitFlags: 0
+    },
+    {
+      m_lapTimeInMS: 0,
+      m_sector1TimeInMS: 0,
+      m_sector2TimeInMS: 0,
+      m_sector3TimeInMS: 0,
+      m_lapValidBitFlags: 0
+    },
+    {
+      m_lapTimeInMS: 0,
+      m_sector1TimeInMS: 0,
+      m_sector2TimeInMS: 0,
+      m_sector3TimeInMS: 0,
+      m_lapValidBitFlags: 0
+    },
+    {
+      m_lapTimeInMS: 0,
+      m_sector1TimeInMS: 0,
+      m_sector2TimeInMS: 0,
+      m_sector3TimeInMS: 0,
+      m_lapValidBitFlags: 0
+    },
+    {
+      m_lapTimeInMS: 0,
+      m_sector1TimeInMS: 0,
+      m_sector2TimeInMS: 0,
+      m_sector3TimeInMS: 0,
+      m_lapValidBitFlags: 0
+    },
+    {
+      m_lapTimeInMS: 0,
+      m_sector1TimeInMS: 0,
+      m_sector2TimeInMS: 0,
+      m_sector3TimeInMS: 0,
+      m_lapValidBitFlags: 0
+    },
+    {
+      m_lapTimeInMS: 0,
+      m_sector1TimeInMS: 0,
+      m_sector2TimeInMS: 0,
+      m_sector3TimeInMS: 0,
+      m_lapValidBitFlags: 0
+    },
+    {
+      m_lapTimeInMS: 0,
+      m_sector1TimeInMS: 0,
+      m_sector2TimeInMS: 0,
+      m_sector3TimeInMS: 0,
+      m_lapValidBitFlags: 0
+    },
+    {
+      m_lapTimeInMS: 0,
+      m_sector1TimeInMS: 0,
+      m_sector2TimeInMS: 0,
+      m_sector3TimeInMS: 0,
+      m_lapValidBitFlags: 0
+    },
+    {
+      m_lapTimeInMS: 0,
+      m_sector1TimeInMS: 0,
+      m_sector2TimeInMS: 0,
+      m_sector3TimeInMS: 0,
+      m_lapValidBitFlags: 0
+    },
+    {
+      m_lapTimeInMS: 0,
+      m_sector1TimeInMS: 0,
+      m_sector2TimeInMS: 0,
+      m_sector3TimeInMS: 0,
+      m_lapValidBitFlags: 0
+    },
+    {
+      m_lapTimeInMS: 0,
+      m_sector1TimeInMS: 0,
+      m_sector2TimeInMS: 0,
+      m_sector3TimeInMS: 0,
+      m_lapValidBitFlags: 0
+    },
+    {
+      m_lapTimeInMS: 0,
+      m_sector1TimeInMS: 0,
+      m_sector2TimeInMS: 0,
+      m_sector3TimeInMS: 0,
+      m_lapValidBitFlags: 0
+    },
+    {
+      m_lapTimeInMS: 0,
+      m_sector1TimeInMS: 0,
+      m_sector2TimeInMS: 0,
+      m_sector3TimeInMS: 0,
+      m_lapValidBitFlags: 0
+    },
+    {
+      m_lapTimeInMS: 0,
+      m_sector1TimeInMS: 0,
+      m_sector2TimeInMS: 0,
+      m_sector3TimeInMS: 0,
+      m_lapValidBitFlags: 0
+    },
+    {
+      m_lapTimeInMS: 0,
+      m_sector1TimeInMS: 0,
+      m_sector2TimeInMS: 0,
+      m_sector3TimeInMS: 0,
+      m_lapValidBitFlags: 0
+    },
+    {
+      m_lapTimeInMS: 0,
+      m_sector1TimeInMS: 0,
+      m_sector2TimeInMS: 0,
+      m_sector3TimeInMS: 0,
+      m_lapValidBitFlags: 0
+    },
+    {
+      m_lapTimeInMS: 0,
+      m_sector1TimeInMS: 0,
+      m_sector2TimeInMS: 0,
+      m_sector3TimeInMS: 0,
+      m_lapValidBitFlags: 0
+    },
+    {
+      m_lapTimeInMS: 0,
+      m_sector1TimeInMS: 0,
+      m_sector2TimeInMS: 0,
+      m_sector3TimeInMS: 0,
+      m_lapValidBitFlags: 0
+    },
+    {
+      m_lapTimeInMS: 0,
+      m_sector1TimeInMS: 0,
+      m_sector2TimeInMS: 0,
+      m_sector3TimeInMS: 0,
+      m_lapValidBitFlags: 0
+    },
+    {
+      m_lapTimeInMS: 0,
+      m_sector1TimeInMS: 0,
+      m_sector2TimeInMS: 0,
+      m_sector3TimeInMS: 0,
+      m_lapValidBitFlags: 0
+    },
+    {
+      m_lapTimeInMS: 0,
+      m_sector1TimeInMS: 0,
+      m_sector2TimeInMS: 0,
+      m_sector3TimeInMS: 0,
+      m_lapValidBitFlags: 0
+    },
+    {
+      m_lapTimeInMS: 0,
+      m_sector1TimeInMS: 0,
+      m_sector2TimeInMS: 0,
+      m_sector3TimeInMS: 0,
+      m_lapValidBitFlags: 0
+    },
+    {
+      m_lapTimeInMS: 0,
+      m_sector1TimeInMS: 0,
+      m_sector2TimeInMS: 0,
+      m_sector3TimeInMS: 0,
+      m_lapValidBitFlags: 0
+    },
+    {
+      m_lapTimeInMS: 0,
+      m_sector1TimeInMS: 0,
+      m_sector2TimeInMS: 0,
+      m_sector3TimeInMS: 0,
+      m_lapValidBitFlags: 0
+    },
+    {
+      m_lapTimeInMS: 0,
+      m_sector1TimeInMS: 0,
+      m_sector2TimeInMS: 0,
+      m_sector3TimeInMS: 0,
+      m_lapValidBitFlags: 0
+    },
+    {
+      m_lapTimeInMS: 0,
+      m_sector1TimeInMS: 0,
+      m_sector2TimeInMS: 0,
+      m_sector3TimeInMS: 0,
+      m_lapValidBitFlags: 0
+    },
+    {
+      m_lapTimeInMS: 0,
+      m_sector1TimeInMS: 0,
+      m_sector2TimeInMS: 0,
+      m_sector3TimeInMS: 0,
+      m_lapValidBitFlags: 0
+    },
+    {
+      m_lapTimeInMS: 0,
+      m_sector1TimeInMS: 0,
+      m_sector2TimeInMS: 0,
+      m_sector3TimeInMS: 0,
+      m_lapValidBitFlags: 0
+    },
+    {
+      m_lapTimeInMS: 0,
+      m_sector1TimeInMS: 0,
+      m_sector2TimeInMS: 0,
+      m_sector3TimeInMS: 0,
+      m_lapValidBitFlags: 0
+    },
+    {
+      m_lapTimeInMS: 0,
+      m_sector1TimeInMS: 0,
+      m_sector2TimeInMS: 0,
+      m_sector3TimeInMS: 0,
+      m_lapValidBitFlags: 0
+    },
+    {
+      m_lapTimeInMS: 0,
+      m_sector1TimeInMS: 0,
+      m_sector2TimeInMS: 0,
+      m_sector3TimeInMS: 0,
+      m_lapValidBitFlags: 0
+    },
+    {
+      m_lapTimeInMS: 0,
+      m_sector1TimeInMS: 0,
+      m_sector2TimeInMS: 0,
+      m_sector3TimeInMS: 0,
+      m_lapValidBitFlags: 0
+    },
+    {
+      m_lapTimeInMS: 0,
+      m_sector1TimeInMS: 0,
+      m_sector2TimeInMS: 0,
+      m_sector3TimeInMS: 0,
+      m_lapValidBitFlags: 0
+    },
+    {
+      m_lapTimeInMS: 0,
+      m_sector1TimeInMS: 0,
+      m_sector2TimeInMS: 0,
+      m_sector3TimeInMS: 0,
+      m_lapValidBitFlags: 0
+    },
+    {
+      m_lapTimeInMS: 0,
+      m_sector1TimeInMS: 0,
+      m_sector2TimeInMS: 0,
+      m_sector3TimeInMS: 0,
+      m_lapValidBitFlags: 0
+    },
+    {
+      m_lapTimeInMS: 0,
+      m_sector1TimeInMS: 0,
+      m_sector2TimeInMS: 0,
+      m_sector3TimeInMS: 0,
+      m_lapValidBitFlags: 0
+    },
+    {
+      m_lapTimeInMS: 0,
+      m_sector1TimeInMS: 0,
+      m_sector2TimeInMS: 0,
+      m_sector3TimeInMS: 0,
+      m_lapValidBitFlags: 0
+    },
+    {
+      m_lapTimeInMS: 0,
+      m_sector1TimeInMS: 0,
+      m_sector2TimeInMS: 0,
+      m_sector3TimeInMS: 0,
+      m_lapValidBitFlags: 0
+    },
+    {
+      m_lapTimeInMS: 0,
+      m_sector1TimeInMS: 0,
+      m_sector2TimeInMS: 0,
+      m_sector3TimeInMS: 0,
+      m_lapValidBitFlags: 0
+    },
+    {
+      m_lapTimeInMS: 0,
+      m_sector1TimeInMS: 0,
+      m_sector2TimeInMS: 0,
+      m_sector3TimeInMS: 0,
+      m_lapValidBitFlags: 0
+    },
+    {
+      m_lapTimeInMS: 0,
+      m_sector1TimeInMS: 0,
+      m_sector2TimeInMS: 0,
+      m_sector3TimeInMS: 0,
+      m_lapValidBitFlags: 0
+    },
+    {
+      m_lapTimeInMS: 0,
+      m_sector1TimeInMS: 0,
+      m_sector2TimeInMS: 0,
+      m_sector3TimeInMS: 0,
+      m_lapValidBitFlags: 0
+    },
+    {
+      m_lapTimeInMS: 0,
+      m_sector1TimeInMS: 0,
+      m_sector2TimeInMS: 0,
+      m_sector3TimeInMS: 0,
+      m_lapValidBitFlags: 0
+    },
+    {
+      m_lapTimeInMS: 0,
+      m_sector1TimeInMS: 0,
+      m_sector2TimeInMS: 0,
+      m_sector3TimeInMS: 0,
+      m_lapValidBitFlags: 0
+    },
+    {
+      m_lapTimeInMS: 0,
+      m_sector1TimeInMS: 0,
+      m_sector2TimeInMS: 0,
+      m_sector3TimeInMS: 0,
+      m_lapValidBitFlags: 0
+    },
+    {
+      m_lapTimeInMS: 0,
+      m_sector1TimeInMS: 0,
+      m_sector2TimeInMS: 0,
+      m_sector3TimeInMS: 0,
+      m_lapValidBitFlags: 0
+    },
+    {
+      m_lapTimeInMS: 0,
+      m_sector1TimeInMS: 0,
+      m_sector2TimeInMS: 0,
+      m_sector3TimeInMS: 0,
+      m_lapValidBitFlags: 0
+    },
+    {
+      m_lapTimeInMS: 0,
+      m_sector1TimeInMS: 0,
+      m_sector2TimeInMS: 0,
+      m_sector3TimeInMS: 0,
+      m_lapValidBitFlags: 0
+    },
+    {
+      m_lapTimeInMS: 0,
+      m_sector1TimeInMS: 0,
+      m_sector2TimeInMS: 0,
+      m_sector3TimeInMS: 0,
+      m_lapValidBitFlags: 0
+    },
+    {
+      m_lapTimeInMS: 0,
+      m_sector1TimeInMS: 0,
+      m_sector2TimeInMS: 0,
+      m_sector3TimeInMS: 0,
+      m_lapValidBitFlags: 0
+    },
+    {
+      m_lapTimeInMS: 0,
+      m_sector1TimeInMS: 0,
+      m_sector2TimeInMS: 0,
+      m_sector3TimeInMS: 0,
+      m_lapValidBitFlags: 0
+    },
+    {
+      m_lapTimeInMS: 0,
+      m_sector1TimeInMS: 0,
+      m_sector2TimeInMS: 0,
+      m_sector3TimeInMS: 0,
+      m_lapValidBitFlags: 0
+    },
+    {
+      m_lapTimeInMS: 0,
+      m_sector1TimeInMS: 0,
+      m_sector2TimeInMS: 0,
+      m_sector3TimeInMS: 0,
+      m_lapValidBitFlags: 0
+    },
+    {
+      m_lapTimeInMS: 0,
+      m_sector1TimeInMS: 0,
+      m_sector2TimeInMS: 0,
+      m_sector3TimeInMS: 0,
+      m_lapValidBitFlags: 0
+    },
+    {
+      m_lapTimeInMS: 0,
+      m_sector1TimeInMS: 0,
+      m_sector2TimeInMS: 0,
+      m_sector3TimeInMS: 0,
+      m_lapValidBitFlags: 0
+    },
+    {
+      m_lapTimeInMS: 0,
+      m_sector1TimeInMS: 0,
+      m_sector2TimeInMS: 0,
+      m_sector3TimeInMS: 0,
+      m_lapValidBitFlags: 0
+    },
+    {
+      m_lapTimeInMS: 0,
+      m_sector1TimeInMS: 0,
+      m_sector2TimeInMS: 0,
+      m_sector3TimeInMS: 0,
+      m_lapValidBitFlags: 0
+    },
+    {
+      m_lapTimeInMS: 0,
+      m_sector1TimeInMS: 0,
+      m_sector2TimeInMS: 0,
+      m_sector3TimeInMS: 0,
+      m_lapValidBitFlags: 0
+    },
+    {
+      m_lapTimeInMS: 0,
+      m_sector1TimeInMS: 0,
+      m_sector2TimeInMS: 0,
+      m_sector3TimeInMS: 0,
+      m_lapValidBitFlags: 0
+    },
+    {
+      m_lapTimeInMS: 0,
+      m_sector1TimeInMS: 0,
+      m_sector2TimeInMS: 0,
+      m_sector3TimeInMS: 0,
+      m_lapValidBitFlags: 0
+    },
+    {
+      m_lapTimeInMS: 0,
+      m_sector1TimeInMS: 0,
+      m_sector2TimeInMS: 0,
+      m_sector3TimeInMS: 0,
+      m_lapValidBitFlags: 0
+    },
+    {
+      m_lapTimeInMS: 0,
+      m_sector1TimeInMS: 0,
+      m_sector2TimeInMS: 0,
+      m_sector3TimeInMS: 0,
+      m_lapValidBitFlags: 0
+    },
+    {
+      m_lapTimeInMS: 0,
+      m_sector1TimeInMS: 0,
+      m_sector2TimeInMS: 0,
+      m_sector3TimeInMS: 0,
+      m_lapValidBitFlags: 0
+    },
+    {
+      m_lapTimeInMS: 0,
+      m_sector1TimeInMS: 0,
+      m_sector2TimeInMS: 0,
+      m_sector3TimeInMS: 0,
+      m_lapValidBitFlags: 0
+    },
+    {
+      m_lapTimeInMS: 0,
+      m_sector1TimeInMS: 0,
+      m_sector2TimeInMS: 0,
+      m_sector3TimeInMS: 0,
+      m_lapValidBitFlags: 0
+    },
+    {
+      m_lapTimeInMS: 0,
+      m_sector1TimeInMS: 0,
+      m_sector2TimeInMS: 0,
+      m_sector3TimeInMS: 0,
+      m_lapValidBitFlags: 0
+    },
+    {
+      m_lapTimeInMS: 0,
+      m_sector1TimeInMS: 0,
+      m_sector2TimeInMS: 0,
+      m_sector3TimeInMS: 0,
+      m_lapValidBitFlags: 0
+    },
+    {
+      m_lapTimeInMS: 0,
+      m_sector1TimeInMS: 0,
+      m_sector2TimeInMS: 0,
+      m_sector3TimeInMS: 0,
+      m_lapValidBitFlags: 0
+    },
+    {
+      m_lapTimeInMS: 0,
+      m_sector1TimeInMS: 0,
+      m_sector2TimeInMS: 0,
+      m_sector3TimeInMS: 0,
+      m_lapValidBitFlags: 0
+    },
+    {
+      m_lapTimeInMS: 0,
+      m_sector1TimeInMS: 0,
+      m_sector2TimeInMS: 0,
+      m_sector3TimeInMS: 0,
+      m_lapValidBitFlags: 0
+    },
+    {
+      m_lapTimeInMS: 0,
+      m_sector1TimeInMS: 0,
+      m_sector2TimeInMS: 0,
+      m_sector3TimeInMS: 0,
+      m_lapValidBitFlags: 0
+    },
+    {
+      m_lapTimeInMS: 0,
+      m_sector1TimeInMS: 0,
+      m_sector2TimeInMS: 0,
+      m_sector3TimeInMS: 0,
+      m_lapValidBitFlags: 0
+    },
+    {
+      m_lapTimeInMS: 0,
+      m_sector1TimeInMS: 0,
+      m_sector2TimeInMS: 0,
+      m_sector3TimeInMS: 0,
+      m_lapValidBitFlags: 0
+    },
+    {
+      m_lapTimeInMS: 0,
+      m_sector1TimeInMS: 0,
+      m_sector2TimeInMS: 0,
+      m_sector3TimeInMS: 0,
+      m_lapValidBitFlags: 0
+    },
+    {
+      m_lapTimeInMS: 0,
+      m_sector1TimeInMS: 0,
+      m_sector2TimeInMS: 0,
+      m_sector3TimeInMS: 0,
+      m_lapValidBitFlags: 0
+    },
+    {
+      m_lapTimeInMS: 0,
+      m_sector1TimeInMS: 0,
+      m_sector2TimeInMS: 0,
+      m_sector3TimeInMS: 0,
+      m_lapValidBitFlags: 0
+    },
+    {
+      m_lapTimeInMS: 0,
+      m_sector1TimeInMS: 0,
+      m_sector2TimeInMS: 0,
+      m_sector3TimeInMS: 0,
+      m_lapValidBitFlags: 0
+    },
+    {
+      m_lapTimeInMS: 0,
+      m_sector1TimeInMS: 0,
+      m_sector2TimeInMS: 0,
+      m_sector3TimeInMS: 0,
+      m_lapValidBitFlags: 0
+    }
+  ],
+  m_tyreStintsHistoryData: [
+    {
+      m_endLap: 255,
+      m_tyreActualCompound: 16,
+      m_tyreVisualCompound: 16
+    },
+    { m_endLap: 0, m_tyreActualCompound: 0, m_tyreVisualCompound: 0 },
+    { m_endLap: 0, m_tyreActualCompound: 0, m_tyreVisualCompound: 0 },
+    { m_endLap: 0, m_tyreActualCompound: 0, m_tyreVisualCompound: 0 },
+    { m_endLap: 0, m_tyreActualCompound: 0, m_tyreVisualCompound: 0 },
+    { m_endLap: 0, m_tyreActualCompound: 0, m_tyreVisualCompound: 0 },
+    { m_endLap: 0, m_tyreActualCompound: 0, m_tyreVisualCompound: 0 },
+    { m_endLap: 0, m_tyreActualCompound: 0, m_tyreVisualCompound: 0 }
+  ]
+}
