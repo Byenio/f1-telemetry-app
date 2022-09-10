@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node src/App.js"
+    "start": "nodemon src/App.js"
   },
   "keywords": [],
   "author": "",
@@ -12,6 +12,8 @@
   "dependencies": {
     "@racehub-io/f1-telemetry-client": "^0.2.8",
     "express": "^4.18.1",
+    "f1-22-udp": "^2.1.1",
+    "socket.io": "^4.5.2",
     "ts-node-dev": "^2.0.0"
   },
   "type": "module"
