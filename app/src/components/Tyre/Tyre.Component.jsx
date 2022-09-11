@@ -11,7 +11,7 @@ import {
     Filler,
     Legend,
   } from 'chart.js';
-  
+import './Tyre.Style.css';
 import { useEffect, useState } from 'react';
 
 ChartJS.register(

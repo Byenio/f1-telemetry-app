@@ -20,16 +20,16 @@ const io = new Server(server, {
     }
 })
 
-io.on(
-    'connection',
-    (socket) => {
-        console.log('✅ Client connected!');
-});
-io.on(
-    'disconnect',
-    (socket) => {
-        console.log('❌ Client disconnected!');
-});
+// io.on(
+//     'connection',
+//     (socket) => {
+//         console.log('✅ Client connected!');
+// });
+// io.on(
+//     'disconnect',
+//     (socket) => {
+//         console.log('❌ Client disconnected!');
+// });
 
 //* F1 telemetry client
 const { PACKETS } = constants;
