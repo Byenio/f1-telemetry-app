@@ -105,5 +105,5 @@ export const DRIVERS = {
   110: {abbreviation: 'COU', firstName: 'David', lastName: 'Coulthard'},
   111: {abbreviation: 'ROS', firstName: 'Nico', lastName: 'Rosberg'},
   254: {abbreviation: 'TMT', firstName: 'Teammate', lastName: 'Teammate'},
-  255: {abbreviation: 'BYE', firstName: 'Byenio', lastName: 'Byenio'}
+  255: {abbreviation: 'BYE', firstName: 'Marcel', lastName: 'Byenio'}
 }

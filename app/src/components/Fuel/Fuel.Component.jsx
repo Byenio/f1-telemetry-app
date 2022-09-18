@@ -11,7 +11,7 @@ import {
     Filler,
     Legend,
   } from 'chart.js';
-import './Tyre.Style.css';
+import './Fuel.Style.css';
 import { useEffect, useState } from 'react';
 
 ChartJS.register(
@@ -27,63 +27,54 @@ ChartJS.register(
 
 var socket = io.connect('http://localhost:5050');
 
-function TyreChart() {
+function FuelChart() {
 
   const [ playerId, setPlayerId ] = useState(0);
-  const [ tyresDamage, setTyresDamage ] = useState([]);
+
+  const [ fuelAmount, setFuelAmount ] = useState([]);
+  const [ allFuel, setAllFuel ] = useState([]);
+
+  const [ fuelDelta, setFuelDelta ] = useState([]);
+
   const [ labels, setLabels ] = useState([]);
-  const [ allTyresDamage, setAllTyresDamage ] = useState([]);
 
   useEffect(() => {
     socket.on('participants', data => {
         setPlayerId(data[data.length - 1].header.playerId);
     });
-    socket.on('carDamage', (data) => {
-        let wear = 0
-        data[playerId].tyresWear.map(el => wear += el)
-        wear = 100 - wear/4
-        let tmp_wear = allTyresDamage
-        tmp_wear.push(wear)
-        setAllTyresDamage(tmp_wear)
+    socket.on('carStatus', (data) => {
+        let tmp_fuel = allFuel;
+        tmp_fuel.push(data[playerId].fuelRemainingLaps);
     })
     socket.on('lapData', (data) => {
         let currentLap = data[playerId].currentLapNum
         let found = labels.find((el) => el === currentLap - 1)
         if (currentLap - 1 > 0 && found === undefined) {
-
-            let tmp_labels = labels
-            tmp_labels.push(currentLap - 1)
-            setLabels(tmp_labels)
-
-            let tmp_damage = tyresDamage;
-            tmp_damage.push(allTyresDamage[allTyresDamage.length - 1])
-            setTyresDamage(tmp_damage.slice());
-
+            let tmp_labels = labels;
+            tmp_labels.push(currentLap - 1);
+            setLabels(tmp_labels);
+            let tmp_fuel = fuelAmount;
+            tmp_fuel.push(allFuel[allFuel.length - 1]);
+            setFuelAmount(tmp_fuel.slice());
         }
     })
-  }, [ tyresDamage, allTyresDamage, labels ]);
+  }, [ fuelAmount, allFuel, labels ]);
 
   return (
     <div className='flex flex-col w-full'>
             <Line 
                 options={{
-                    responsive: true,
-                        scales: {
-                            yAxis: {
-                                min: 20,
-                                max: 100
-                            }
-                        }
+                    responsive: true
                 }}
                 data={{
                     labels,
                     datasets: [
                         {
                             fill: true,
-                            label: 'Tyre Wear [%]',
-                            data: labels.map((el, index) => tyresDamage[index]),
-                            borderColor: 'rgb(255, 99, 132)',
-                            backgroundColor: 'rgba(255, 99, 132, 0.5)',
+                            label: 'Fuel delta [laps]',
+                            data: labels.map((el, index) => fuelAmount[index]),
+                            borderColor: 'rgb(153, 0, 153)',
+                            backgroundColor: 'rgba(153, 0, 153, 0.3)',
                         },
                     ]
                 }}
@@ -92,4 +83,4 @@ function TyreChart() {
   );
 }
 
-export default TyreChart;
+export default FuelChart;

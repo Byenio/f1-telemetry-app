@@ -92,6 +92,7 @@ function sendPacket(type, packet) {
             packet.allCarStatus.map((el) => data.push({
                 "tyreCompound": el.m_visualTyreCompound,
                 "tyresAgeLaps": el.m_tyresAgeLaps,
+                "fuelInTank": el.m_fuelInTank,
                 "fuelRemainingLaps": el.m_fuelRemainingLaps,
                 "ersDeployMode": el.m_ersDeployMode,
                 "ersDeployedThisLap": el.m_ersDeployedThisLap
@@ -118,6 +119,12 @@ function sendPacket(type, packet) {
                 "driverId": el.m_driverId,
                 "teamId": el.m_teamId
             }))
+            data.push({
+                "header": {
+                    "playerId": packet.header.m_playerCarIndex,
+                    "secondaryPlayerId": packet.header.m_secondaryPlayerCarIndex
+                }
+            })
             break
         case PACKETS.session:
             data = {
@@ -134,12 +141,10 @@ function sendPacket(type, packet) {
             break
         case PACKETS.carTelemetry:
             packet.allCarTelemetry.map((el) => data.push({
-                "speed": el.m_speed,
-                "throttle": el.m_throttle,
-                "steer": el.m_steer,
-                "brake": el.m_brake,
-                "gear": el.m_gear,
-                "engineRPM": el.m_engineRPM,
+                "surfaceTemps": el.m_tyresSurfaceTemperature,
+                "innerTemps": el.m_tyresInnerTemperature,
+                "tyresPressure": el.m_tyresPressure,
+                "engineTemps": el.m_engineTemperature,
                 "drs": el.m_drs
             }))
             break
@@ -209,7 +214,6 @@ client.on(PACKETS.carDamage, (data) => {
     //console.log(packet)
     sendPacket(PACKETS.carDamage, packet)
 })
-
 
 client.start();
 

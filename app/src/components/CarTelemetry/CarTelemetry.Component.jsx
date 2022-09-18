@@ -9,19 +9,20 @@ const socket = io.connect('http://localhost:5050')
 
 const CarTelemetry = () => {
     
-    const [participantsStatus, setParticipantsStatus] = useState([])
-    const [selectedCar, setSelectedCar] = useState(0)
+    const [ participantsStatus, setParticipantsStatus ] = useState([]);
+    const [ playerId, setPlayerId ] = useState(0);
 
 
     useEffect(() => {
         socket.on('participants', (data) => {
-            setParticipantsStatus(data.slice())
+            setParticipantsStatus(data.slice());
+            setPlayerId(data[data.length - 1].header.playerId);
         })
     }, [socket])
 
     return (
         <div className='flex flex-col p-2 w-full text-white font-f1Bold py-2 px-2'>
-            <div className='flex flex-row w-full'>
+            {/* <div className='flex flex-row w-full'>
                 <div className='flex flex-row w-1/2 items-center'>
                     <p className='my-2 text-lg mr-2'>
                         Select Car
@@ -43,8 +44,8 @@ const CarTelemetry = () => {
                     </select>
                 </div>
                 
-            </div>
-            <CarTelemetryProvider selectedCar={selectedCar}/>
+            </div> */}
+            <CarTelemetryProvider selectedCar={playerId}/>
         </div>
     )
 }

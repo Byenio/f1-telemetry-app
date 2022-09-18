@@ -12,6 +12,7 @@ function parseLapStatusPacketFunc(packet) {
 
 function parseParticipantsDataPacketFunc(packet) {
     return {
+        "header": packet.m_header,
         "allParticipantsData": packet.m_participants
     }
 }

@@ -27,6 +27,8 @@ ChartJS.register(
 const socket = io.connect('http://localhost:5050')
 
 const LapChart = () => {
+
+    const [ playerId, setPlayerId ] = useState(0);
     
     const [labels, setLabels] = useState([])
     const [time, setTime] = useState([])
@@ -34,15 +36,18 @@ const LapChart = () => {
       responsive: true,
     }
     useEffect(() => {
+      socket.on('participants', data => {
+          setPlayerId(data[data.length - 1].header.playerId);
+      });
         socket.on('lapData', (data) => {
-            let currentLap = data[21].currentLapNum
+            let currentLap = data[playerId].currentLapNum
             let found = labels.find((el) => el === currentLap - 1)
             if (currentLap - 1 > 0 && found === undefined) {
                 let tmp_labels = labels
                 tmp_labels.push(currentLap - 1)
                 setLabels(tmp_labels)
                 let tmp_time = time
-                tmp_time.push(data[21].lastLapTimeInMS)
+                tmp_time.push(data[playerId].lastLapTimeInMS)
                 setTime(tmp_time.slice())
                 options = {
                   responsive: true,
@@ -66,7 +71,7 @@ const LapChart = () => {
                   datasets: [
                     {
                       fill: true,
-                      label: 'Laptime',
+                      label: 'Laptime [s]',
                       data: labels.map((el, index) => (time[index])/1000),
                       borderColor: 'rgb(53, 162, 235)',
                       backgroundColor: 'rgba(53, 162, 235, 0.5)',
